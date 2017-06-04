@@ -22,9 +22,10 @@
 > 1. versions，扩展功能3：版本支持（修改历史记录）
 
 # 使用方法
-1. 安装
+## 安装
 > npm install CMVirtualFS
-1. 使用
+>
+## 使用
 > var vfs=import(CMVirtualFS)    
 > vfs = new VirtualFS(用户ID);    
 > vfs.ls(path, options); //返回path的内容列表，JSON对象    
